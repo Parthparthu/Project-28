@@ -60,14 +60,14 @@ function draw() {
     mango7.display();
     mango8.display();
 
-    // detectcollision(stoneObj,mango1);
-    // detectcollision(stoneObj,mango2);
-    // detectcollision(stoneObj,mango3);
-    // detectcollision(stoneObj,mango4);
-    // detectcollision(stoneObj,mango5);
-    // detectcollision(stoneObj,mango6);
-    // detectcollision(stoneObj,mango7);
-    // detectcollision(stoneObj,mango8);
+    detectcollision(stoneObj,mango1);
+    detectcollision(stoneObj,mango2);
+    detectcollision(stoneObj,mango3);
+    detectcollision(stoneObj,mango4);
+    detectcollision(stoneObj,mango5);
+    detectcollision(stoneObj,mango6);
+    detectcollision(stoneObj,mango7);
+    detectcollision(stoneObj,mango8);
 
 }
 
@@ -77,15 +77,6 @@ function mouseDragged() {
 
 function mouseReleased() {
     Elastic.fly()
-    detectcollision(stoneObj, mango1);
-    detectcollision(stoneObj, mango2);
-    detectcollision(stoneObj, mango3);
-    detectcollision(stoneObj, mango4);
-    detectcollision(stoneObj, mango5);
-    detectcollision(stoneObj, mango6);
-    detectcollision(stoneObj, mango7);
-    detectcollision(stoneObj, mango8);
-
 }
 
 function keyPressed() {
